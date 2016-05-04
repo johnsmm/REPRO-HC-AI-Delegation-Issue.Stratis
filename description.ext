@@ -1,2 +1,26 @@
+//--- Respawn options.
+respawn = 3;
+respawnDelay = 3;
+respawnDialog = false;
+
+//--- Require briefing.html to show up.
+onLoadMission = "REPRO-HC-AI-Delegation-Issue";
+onLoadMissionTime = false;
+onLoadName = "REPRO-HC-AI-Delegation-Issue";
+
+briefingName = "REPRO-HC-AI-Delegation-Issue";
+
+//--- ArmA 3 Specifics
+dev = "Benny";
+author = "Benny";
+// overviewPicture
+
+//--- Properties.
+class Header {
+	gameType = CTI;
+	minPlayers = 1;
+	maxPlayers = 32;
+};
+
 // ^HS^ for Headless Client
 joinUnassigned = 0;
